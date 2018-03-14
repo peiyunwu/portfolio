@@ -20,10 +20,6 @@
 	background-color: rgb(255,255,255);
 }
 
-.toggle .on{
-	color: green;
-}
-
 .right{float:right!important}
 
 .bar-block .bar-item{
