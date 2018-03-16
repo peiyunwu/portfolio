@@ -153,6 +153,13 @@
 	margin-top: 0.2rem;
 }
 
+.self{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
 .imgbox{
 	padding:10px 0 40px 0;
 }
