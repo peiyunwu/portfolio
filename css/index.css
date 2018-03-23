@@ -111,3 +111,19 @@ footer,header,main,menu,nav,section,summary{display:block}
 .link:hover{
 	color: rgb(169, 169, 169);
 }
+
+/*bgimg*/
+
+.bgimg1, .bgimg2, .bgimg3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg1 {
+    opacity: .8;
+    min-height: 100vh;
+    background-color: #70CCCC;
+}
