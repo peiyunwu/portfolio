@@ -7,7 +7,7 @@
 	text-align: left;
 	font-size: 1rem;
 	font-weight: 600;
-  color: #444; /*沒設的話會有a效果*/
+  /*color: #444;*/ /*no will be a style*/
 }
 
 .desc{
