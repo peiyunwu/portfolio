@@ -51,7 +51,7 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .4s ease;
+  transition: opacity .4s ease;
   background-color: rgba(112,204,204,.6);
 }
 
