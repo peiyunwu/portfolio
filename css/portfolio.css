@@ -4,16 +4,71 @@
   padding-top: 0.4rem;
 	margin-top: 0;
 	margin-bottom: 0;
-	text-align: left;
-	font-size: 1rem;
+	text-align: center;
+	font-size: 1.1rem;
 	font-weight: 600;
-  color: #444; /*no will be a style*/
+  color: #fff; /*no will be a style*/
 }
 
 .desc{
-	text-align: left;
+	text-align: center;
 	margin-top: 0.3rem;
 	font-size: 0.8rem;
+  color: #fff;
+}
+
+/*pad and phone*/
+
+.projects{
+  padding-top: 0.4rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #444; /*no will be a style*/
+}
+
+.descs{
+  text-align: left;
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+  color: rgb(169,169,169);
+}
+
+/*hover*/
+
+.cimg {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .4s ease;
+  background-color: rgba(112,204,204,.6);
+}
+
+.cimg:hover .overlay {
+  opacity: 1;
+}
+
+.cimg:hover img{
+  opacity: .2;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 /* Grid */
@@ -27,7 +82,6 @@
   margin-top: 0.5rem;
 }
 
-
 .col {
  /* be sure to reset the font and letter-spacing */
   letter-spacing: normal;
@@ -40,26 +94,27 @@
   vertical-align: top;
   box-sizing: border-box;
   width: 100%;
-  padding: 15px 1em 20px 1em;
-}
-
-.col a:hover{
-  opacity: .6;
-  transition: .3s;
+  padding: 10px 1em;
 }
 
 .wid, .ab{
 	width: 100%;
 }
 
+@media(max-width: 992px){
+  .puter{display: none;}
+}
+
 @media(min-width: 601px){
 	.wid, .ab{width: 50%;}
-	.col{padding: 15px 0.7em 20px 0.7em;}
+	.col{padding: 10px 0.7em;}
 }
 
 @media(min-width: 993px){
 	.wid{width: 33.33333%;}
-	.col{padding: 15px 1em 20px 1em;}
+	.col{padding: 15px 1em;}
+  .phone{display: none;}
+  .puter{display: block;}
 }
 
 .col1of1   { float: none; }
