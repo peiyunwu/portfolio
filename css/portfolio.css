@@ -42,7 +42,8 @@
   position: relative;
 }
 
-.overlay {
+.cimg .overlay {
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
@@ -51,7 +52,10 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: opacity .4s ease;
+  transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -webkit-transition: all .4s ease;
   background-color: rgba(112,204,204,.6);
 }
 

@@ -45,8 +45,8 @@ function toggleFunction() {
 
 //page fade
 
-document.body.className += ' fade-out';
+// document.body.className += ' fade-out';
 
-  $(function() {
-      $('body').removeClass('fade-out');
-});
+//   $(function() {
+//       $('body').removeClass('fade-out');
+// });
