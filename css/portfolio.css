@@ -68,19 +68,20 @@
 
 .text {
   position: absolute;
+  opacity: 0;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-/*  transition: all .4s ease;
+  transition: all .4s ease;
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
-  -webkit-transition: all .4s ease;*/
+  -webkit-transition: all .4s ease;
 }
 
-/*.cimg:hover .text{
+.cimg:hover .text{
   opacity: 1;
-}*/
+}
 
 /* Grid */
 
