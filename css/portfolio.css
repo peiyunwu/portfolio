@@ -33,6 +33,10 @@
   -webkit-transition: all .4s ease;
 }
 
+.col img{
+  display: block;
+}
+
 /*project*/
 
 .project{

@@ -1,3 +1,12 @@
+.bar{
+	overflow:hidden;
+	width:auto;
+	border:none;
+	display:block;
+	width: 100%;
+	background-color: rgb(255,255,255);
+}
+
 .button{
 	display:inline-block;
 	vertical-align:middle;
@@ -9,15 +18,6 @@
 	line-height: 3rem;
 	letter-spacing: 1px;
 	padding-top: 0.21rem;
-}
-
-.bar{
-	overflow:hidden;
-	width:auto;
-	border:none;
-	display:block;
-	width: 100%;
-	background-color: rgb(255,255,255);
 }
 
 .right{float:right!important}
