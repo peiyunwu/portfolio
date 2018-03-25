@@ -58,14 +58,6 @@
   background-color: rgba(112,204,204,.6);
 }
 
-.cimg:hover .overlay{
-  opacity: 1;
-}
-
-.cimg:hover img{
-  opacity: .3;
-}
-
 .text {
   position: absolute;
   opacity: 0;
@@ -79,8 +71,13 @@
   -webkit-transition: all .4s ease;
 }
 
+.cimg:hover .overlay,
 .cimg:hover .text{
   opacity: 1;
+}
+
+.cimg:hover img{
+  opacity: .3;
 }
 
 /* Grid */
