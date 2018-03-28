@@ -5,6 +5,7 @@
 }
 
 .cimg .overlay {
+  opacity: 0;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -12,7 +13,6 @@
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
   transition: all .4s ease;
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
@@ -37,6 +37,17 @@
   display: block;
 }
 
+.cimg:hover img{
+  opacity: .3;
+}
+
+.cimg:hover .overlay,
+.cimg:hover .text, 
+.cimg:hover .project, 
+.cimg:hover .desc{
+  opacity: 1;
+}
+
 /*project*/
 
 .project{
@@ -56,17 +67,6 @@
   margin-top: 0.3rem;
   font-size: 0.8rem;
   color: #fff;
-}
-
-.cimg:hover .overlay,
-.cimg:hover .text, 
-.cimg:hover .project, 
-.cimg:hover .desc{
-  opacity: 1;
-}
-
-.cimg:hover img{
-  opacity: .3;
 }
 
 /*pad and phone*/
