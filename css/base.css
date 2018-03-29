@@ -40,8 +40,8 @@
 @media (min-width: 993px){
 	.container{
 		padding:0.01em 60px;/*和row-padding有關*/
-		max-width: 1550px;
-		margin: 0 auto;
+/*		max-width: 1550px;
+*/		margin: 0 auto;
 	}
 	.container2{
 		padding:0.01em 60px;/*和row-padding有關*/
@@ -190,11 +190,6 @@ footer{
 
 .icon{
 	width: 20px;
-}
-
-.author{
-	color: #AAA;
-	font-weight: bold;
 }
 
 footer a:hover{
