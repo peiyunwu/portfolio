@@ -17,7 +17,11 @@
 	clear:both;
 }
 
-.container, .container2, .container3{
+.container, .container2{
+	padding:0.01em 25px;/*和row-padding有關*/
+}
+
+ .container3{
 	padding:0.01em 25px;/*和row-padding有關*/
 }
 
