@@ -115,7 +115,7 @@
   vertical-align: top;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 1em;
+  padding: 0.7em 1em;
 }
 
 .wid, .ab{
@@ -128,12 +128,12 @@
 
 @media(min-width: 601px){
 	.wid, .ab{width: 50%;}
-	.col{padding: 10px 0.7em;}
+	.col{padding: 0.7em;}
 }
 
 @media(min-width: 993px){
 	.wid{width: 33.33333%;}
-	.col{padding: 15px 1em;}
+	.col{padding: 1em;}
   .phone{display: none;}
   .puter{display: block;}
 }

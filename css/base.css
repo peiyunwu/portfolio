@@ -43,25 +43,25 @@
 
 @media (min-width: 993px){
 	.container{
-		padding:0.01em 60px;/*和row-padding有關*/
-/*		max-width: 1550px;
-*/		margin: 0 auto;
+		padding:0.01em 3.7em;/*和row-padding有關*/
+		max-width: 100%;
+		margin: 0 auto;
 	}
 	.container2{
-		padding:0.01em 60px;/*和row-padding有關*/
-		max-width: 1550px;
+		padding:0.01em 3.7em;/*和row-padding有關*/
+		max-width: 100%;
 		margin: 0 auto;
 	}
 	.container3{
-		padding:0.01em 60px;/*和row-padding有關*/
+		padding:0.01em 3.7em;/*和row-padding有關*/
 		max-width: 1350px;
 		margin: 0 auto;
 	}
 }
 
 .bigt{
-	margin-top: 120px;
-	margin-bottom: 80px;
+	margin-top: 7.5rem;
+	margin-bottom: 5rem;
 	padding-left: 20px;
 	padding-right: 20px;
 }
