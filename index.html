@@ -8,14 +8,8 @@
   <link rel="icon" href="icon/home.ico" type="image/x-icon" />
   <link rel="shortcut icon" href="icon/home.ico" type="image/x-icon" />
 
-  <!-- css -->
-  <link rel="stylesheet" type="text/css" href="css/bar.css">
-  <link rel="stylesheet" type="text/css" href="css/index.css">
-  <link rel="stylesheet" type="text/css" href="css/base.css">
-  <link rel="stylesheet" type="text/css" href="css/portfolio.css">
-
   <!-- font -->
-  <link rel="stylesheet" type="text/css" href="open-sans.css">
+  <link rel="stylesheet" type="text/css" href="font.css">
 
   <title>PEI-YUN WU</title>
 
@@ -32,27 +26,24 @@
       <a href="index.html"><h2 class="name">PEI-YUN WU</h2></a>
       <a class="bar-item button hide-medium hide-large right toggle" href="javascript:void(0);" onclick="toggleFunction()" style="color: #444;"><img src="icon/menu.png" alt="menu"></a>
       
-<!--       <a href="#contact" class="bar-item button hide-small right pad">CONTACT</a>
- -->      <a href="peiyunwu.pdf" target="_blank" class="bar-item button hide-small right">Resume</a>
-<!--       <a href="about.html" class="bar-item button hide-small right pad">ABOUT</a>
- -->      <a href="index.html" class="bar-item button hide-small right">Portfolio</a></div>
+      <a href="about.html" class="bar-item button hide-small right">簡歷</a>
+      <a href="index.html" class="bar-item button hide-small right active">作品集</a></div>
     </div></div>
   
 
   <!-- Navbar on small screens -->
     <div id="navDemo" class="bar-block graybutton hide hide-large hide-medium">
-      <a href="index.html" class="bar-item button" onclick="toggleFunction()">Portfolio</a>
-<!--       <a href="about.html" class="bar-item button" onclick="toggleFunction()">ABOUT</a>
- -->      <a href="peiyunwu.pdf" target="_blank" class="bar-item button" onclick="toggleFunction()">Resume</a>
-<!--       <a href="#contact" class="bar-item button" onclick="toggleFunction()">CONTACT</a>
- -->    </div>
+      <a href="index.html" class="bar-item button active" onclick="toggleFunction()">作品集</a>
+      <a href="about.html" class="bar-item button" onclick="toggleFunction()">簡歷</a>
+
+    </div>
 
   </nav>
 
   <main>
   <div class="bigt">
     <div class="container2">
-    <h1 class="title">Portfolio</h1>
+    <h1 class="title">作品集</h1>
     <p class="date">｜A look at my projects｜</p>
     <!-- <div class="post-line"></div> -->
     </div>
@@ -67,16 +58,30 @@
     <div class="col-group">
 
       <div class="col wid">
-        <a href="project/flower.html">
+        <a href="project/flaps.html">
           <div class="cimg">
-              <img src="img/squflower.jpg" alt="情人節商機" style="width:100%">
+              <img src="img/flaps.jpg" alt="交大產學服務網" style="width:100%">
               <div class="overlay"></div>
               <div class="text">
-                <h3 class="project">情人節商機：花店解密</h3>
-                <div class="desc">UI Design</div>
+                <h3 class="project">交大產學服務網</h3>
+                <div class="desc">UI / UX Design</div>
               </div>
           </div>
-      </a></div>
+        </a>
+      </div>
+
+      <div class="col wid">
+        <a href="project/fpgame.html">
+          <div class="cimg">
+              <img src="img/fpweb.jpg" alt="被遺忘的樂園" style="width:100%">
+              <div class="overlay"></div>
+              <div class="text">
+                <h3 class="project">被遺忘的樂園</h3>
+                <div class="desc">Web & Game Development</div>
+              </div>
+          </div>
+        </a>
+      </div>
 
       <div class="col wid">
         <a href="project/app.html">
@@ -88,19 +93,8 @@
                 <div class="desc">UI / UX Design</div>
               </div>
           </div>
-      </a></div>
-
-      <div class="col wid">
-        <a href="project/zoo.html">
-          <div class="cimg">
-              <img src="img/zoo.jpg" alt="動物園再生計畫" style="width:100%">
-              <div class="overlay"></div>
-              <div class="text">
-                <h3 class="project">動物園再生計畫</h3>
-                <div class="desc">Experience Design</div>
-              </div>
-          </div>
-      </a></div>
+        </a>
+      </div>
 
       <!-- </div>
 
@@ -113,11 +107,12 @@
               <img src="img/squdctposter.jpg" alt="2018 NCTU DCT Internship Exhibition" style="width:100%">
               <div class="overlay"></div>
               <div class="text">
-                <h3 class="project">交大傳科108級實習展</h3>
+                <h3 class="project">交大傳科系108級實習展</h3>
                 <div class="desc">Graphic Design</div>
               </div>
           </div>
-        </a></div>
+        </a>
+      </div>
 
       <div class="col wid">
         <a href="project/businesscard.html">
@@ -129,82 +124,31 @@
                 <div class="desc">Graphic Design</div>
               </div>
           </div>
-        </a></div>
-
-      <!-- </div>
-
-      <h3>其他</h3>
-      <div class="col-group"> -->
+        </a>
+      </div>
 
       <!-- <div class="col wid">
-        <a href="project/tree.html">
+        <a href="project/zoo.html">
           <div class="cimg">
-              <img src="img/tree.jpg" alt="互動廣告" style="width:100%">
+              <img src="img/zoo.jpg" alt="動物園再生計畫" style="width:100%">
               <div class="overlay"></div>
               <div class="text">
-                <h3 class="project">互動廣告：樹木小知識</h3>
-                <div class="desc">Animation</div>
+                <h3 class="project">動物園再生計畫</h3>
+                <div class="desc">Experience Design</div>
               </div>
           </div>
-      </a></div>
-
-      <div class="col wid">
-        <a href="project/journal.html">
-          <div class="cimg">
-              <img src="img/castnet.jpg" alt="Castnet" style="width:100%;">
-              <div class="overlay"></div>
-                <div class="text">
-                <h3 class="project">喀報</h3>
-                <div class="desc">Journalism</div>
-              </div>
-          </div>
-      </a></div> -->
-
-      <div class="col wid">
-        <a href="project/oldhousefilm.html">
-          <div class="cimg">
-              <img src="img/squpost.jpg" alt="The Remains of the Mansion" style="width:100%">
-              <div class="overlay"></div>
-              <div class="text">
-                <h3 class="project">義竹，憶築</h3>
-                <div class="desc">Short Film</div>
-              </div>
-          </div>
-      </a></div>
-
-      <div class="col wid">
-        <a href="project/frog.html">
-          <div class="cimg">
-              <img src="img/frog.png" alt="好想過馬路" style="width:100%">
-              <div class="overlay"></div>
-              <div class="text">
-                <h3 class="project">好想過馬路</h3>
-                <div class="desc">Short Film</div>
-              </div>
-          </div>
-      </a></div>
-
-      <!-- <div class="col wid">
-        <a href="project/lutw.html">
-          <div class="cimg">
-              <img src="img/lightlogo.jpg" alt="環島專案" style="width:100%; border: 1px solid #EEE;">
-              <div class="overlay"></div>
-              <div class="text">
-                <h3 class="project">2017國際環島專案</h3>
-                <div class="desc">Graphic Design</div>
-              </div>
-          </div>
-      </a></div> -->
+        </a>
+      </div> -->
 
     </div>
   </div>
 
   </main>
   
-   <!-- footer -->
+  <!-- footer -->
   <footer>
     <a href="mailto:zoeyunwu@gmail.com"><img class="icon" src="icon/mail.png" alt="email"></a>
-    <p>&copy; 2018 Pei-Yun Wu</p>
+    <p>&copy; 2020 Pei-Yun Wu</p>
   </footer>
 
   <!-- java -->

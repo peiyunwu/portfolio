@@ -79,7 +79,7 @@
 .title{
 	padding-top:16px;
 	text-align: center;
-	font-weight: normal;
+	font-weight: 600;
 	font-size: 1.6rem;
 	margin: auto;
 	margin-bottom: 0.7rem;
@@ -96,26 +96,29 @@
 }
 
 .date a:hover{
-	color: #70CCCC;
+	color: #7078cc;
 }
 
 /*paragraph*/
 
-.sub{
-	font-weight: normal;
-	text-align: center;
-	margin: 0 auto;
-	margin-bottom: 30px;
+p b{
+	padding-right: 10px;
 }
 
-.light{
-	border-bottom: 2px solid rgba(112, 204, 204,.8);
+.sub{
+	font-weight: 600;
+	/*text-align: center;*/
+	margin: 0 auto;
+	margin: 20px 0;
 }
+
+/*.light{
+	
+}*/
 
 .pg{
 	line-height: 1.5rem;
 	margin-top: 0;
-	padding-bottom: 20px;
 }
 
 .pg p{
