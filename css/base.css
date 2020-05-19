@@ -92,7 +92,7 @@
 }
 
 .date a{
-	color: rgb(169, 169, 169);
+	color: #AAA;
 }
 
 .date a:hover{
@@ -148,7 +148,7 @@ p b{
 }
 
 .ex{
-	color: rgb(169, 169, 169);
+	color: #AAA;
 	text-align: center;
 	margin-top: 0.2rem;
 }
