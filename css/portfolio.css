@@ -126,12 +126,12 @@
   .puter{display: none;}
 }
 
-@media(min-width: 601px){
+@media(min-width: 768px){
 	.wid, .ab{width: 50%;}
 	.col{padding: 0.7em;}
 }
 
-@media(min-width: 993px){
+@media(min-width: 1200px){
 	.wid{width: 33.33333%;}
 	.col{padding: 1em;}
   .phone{display: none;}

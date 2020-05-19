@@ -65,31 +65,6 @@ footer,header,main,menu,nav,section,summary{display:block}
 	main{
 		margin-top: 30px;}}
 
-/*name*/
-
-.name{
-	margin: 0;
-	display:inline-block;
-	margin-top: 0.9rem;
-	color: #444;
-	font-weight: 400;
-	letter-spacing: 2px;
-	font-size:1.2rem;
-	font-family:'Noto Serif TC',sans-serif;
-}
-
-.name:hover{color: #7078cc;}
-
-@media(max-width: 600px){
-	.name{margin-left: 24px;}
-
-	.toggle{
-		margin-right: 25px;}
-}
-
-@media(max-width: 992px){
-	.toggle{font-size: 1.3rem;}}
-
 .col a{
 	color: #444;
 }

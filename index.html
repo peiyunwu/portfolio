@@ -10,35 +10,28 @@
 
   <!-- font -->
   <link rel="stylesheet" type="text/css" href="font.css">
+  <!-- js -->
+  <script type="text/javascript" src="js/nav.js"></script>
 
   <title>PEI-YUN WU</title>
 
 </head>
 <body>
 
-  <!-- bar -->
-
-  <nav>
-     <div id="myNavbar">
-      <!-- Navbar (sit on top) -->
-    <div class="bar">
-      <div class="container">
-      <a href="index.html"><h2 class="name">PEI-YUN WU</h2></a>
-      <a class="bar-item button hide-medium hide-large right toggle" href="javascript:void(0);" onclick="toggleFunction()" style="color: #444;"><img src="icon/menu.png" alt="menu"></a>
-      
-      <a href="about.html" class="bar-item button hide-small right">簡歷</a>
-      <a href="index.html" class="bar-item button hide-small right active">作品集</a></div>
-    </div></div>
-  
-
-  <!-- Navbar on small screens -->
-    <div id="navDemo" class="bar-block graybutton hide hide-large hide-medium">
-      <a href="index.html" class="bar-item button active" onclick="toggleFunction()">作品集</a>
-      <a href="about.html" class="bar-item button" onclick="toggleFunction()">簡歷</a>
-
-    </div>
-
-  </nav>
+  <header id="head" class="container">
+      <nav id="main-navigation" class="navigation">
+          <a href="index.html" class="name">PEI-YUN WU</a>
+          <div class="hamburger-menu">
+              <div class="hamburger"></div>
+          </div>
+          <div class="menu-container">
+              <ul class="menu">
+                  <li class="menu-link"><a  class="active" href="index.html">作品集</a></li>
+                  <li class="menu-link"><a href="about.html">簡歷</a></li>
+              </ul> 
+          </div>
+      </nav>
+  </header>
 
   <main>
   <div class="bigt">
