@@ -231,14 +231,12 @@ body.menu-open {
   outline: 0;
 }
 
+.navigation .menu-container .menu li a:hover{
+  color: #7078cc;
+}
+
 @media (min-width: 1190px) {
   .navigation .menu-container .menu li a {
     font-size: 1.25rem !important;
   }
-}
-
-/*animate*/
-
-nav li a:hover{
-  color: #7078cc!important;
 }
