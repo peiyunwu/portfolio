@@ -18,10 +18,6 @@ body{
 	font-family:'Noto Serif TC',san-serif,Microsoft JhengHei;
 }
 
-.active{
-	color: #7078cc!important;
-}
-
 /*page fade*/
 
 body {
@@ -59,7 +55,7 @@ a:hover{
 body{margin:0}
 
 article,aside,details,figcaption,figure,
-footer,header,main,menu,nav,section,summary{display:block}
+footer,header,main,nav,section,summary{display:block}
 
 @media(max-width: 600px){
 	main{
@@ -86,12 +82,12 @@ footer,header,main,menu,nav,section,summary{display:block}
 	font-family: sans-serif;
 }
 
-.link{
+.out{
 	color: #7078cc;
 	border-bottom: 1px solid #7078cc;
 }
 
-.link:hover{
+.out:hover{
 	color: #AAA;
 	border-bottom: 1px solid #AAA;
 }

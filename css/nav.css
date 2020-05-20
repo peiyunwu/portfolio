@@ -5,13 +5,13 @@ body.menu-open {
 /*name*/
 
 .navigation .name {
-  z-index: 99999;
   position: absolute;
+  left: 0;
+  z-index: 99999;
   opacity: 1;
   margin: 0;
   display:inline-block;
   margin-top: 25px;
-  left: 0;
   color: #444;
   font-weight: 400;
   letter-spacing: 2px;
@@ -239,4 +239,15 @@ body.menu-open {
   .navigation .menu-container .menu li a {
     font-size: 1.25rem !important;
   }
+}
+
+/*animate*/
+
+.navigation .menu-container .menu li a.active{
+  color: #7078cc;
+}
+
+.navigation .menu-container .menu li a.active::before{
+  width: 0%;
+  color: #7078cc;
 }
