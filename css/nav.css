@@ -2,6 +2,20 @@ body.menu-open {
   overflow: hidden;
 }
 
+/*old bar*/
+
+nav{
+  top: 0;
+  height: 3rem;
+  line-height: 3rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  -webkit-transition:.5s;
+    -moz-transition:.5s;
+    transition:.5s;
+}
+
 /*name*/
 
 .navigation .name {
