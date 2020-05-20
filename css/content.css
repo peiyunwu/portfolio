@@ -45,11 +45,6 @@ img{
 a{
 	text-decoration: none;
 	cursor: pointer;
-	color: #AAA;
-}
-
-a:hover{
-	color: #7078cc;
 }
 
 body{margin:0}
