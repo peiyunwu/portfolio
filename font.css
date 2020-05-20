@@ -39,8 +39,8 @@ html, body{
 	font-family: 'Noto Serif TC', serif;
 
 	--color-text: #444;
-	--color-link: #444;
-	--color-link-hover: #7078cc;
+	--color-link: #7078cc;
+	--color-link-hover: #AAA;
 	--color-bg-item1: #EEE;
 	--color-bg-item2: rgba(238, 238, 238, .4);
 }
