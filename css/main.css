@@ -260,6 +260,8 @@ p b{
 	margin-top: 0.2rem;
 }
 
+/*video*/
+
 .embed { 
 	position: relative; 
 	padding-bottom: 56.25%; 
@@ -347,6 +349,7 @@ footer{
 
 .icon{
 	width: 20px;
+	padding-bottom: 20px;
 }
 
 footer a:hover{
